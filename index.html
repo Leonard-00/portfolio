@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Développeur Systèmes Embarqués</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-microchip"></i>
+                <span>EMBEDDED</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="circuit-pattern"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting">Bonjour, je suis</p>
+                <h1 class="name">LÉONARD LUKAMBA</h1>
+                <h2 class="title">DÉVELOPPEUR SYSTÈMES EMBARQUÉS</h2>
+                <p class="description">
+                    Passionné par l'électronique et les systèmes temps réel, je conçois 
+                    des solutions embarquées innovantes alliant hardware et software.
+                </p>
+                
+                <div class="social-links">
+                    <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-gitlab"></i></a>
+                    <a href="#" class="social-btn"><i class="fas fa-envelope"></i></a>
+                </div>
+                
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Voir mes projets
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i> Me contacter
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="image-bg"></div>
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="floating-icons">
+                        <div class="floating-icon icon-1"><i class="fas fa-microchip"></i></div>
+                        <div class="floating-icon icon-2"><i class="fas fa-code"></i></div>
+                        <div class="floating-icon icon-3"><i class="fas fa-cog"></i></div>
+                        <div class="floating-icon icon-4"><i class="fas fa-bolt"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="stats-container">
+            <div class="stat-item">
+                <span class="stat-number" data-target="5">0</span>
+                <span class="stat-plus">+</span>
+                <p class="stat-label">Années d'expérience</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="5">0</span>
+                <span class="stat-plus">+</span>
+                <p class="stat-label">Projets réalisés</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="5">0</span>
+                <span class="stat-plus">+</span>
+                <p class="stat-label">MCU maîtrisés</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="100">0</span>
+                <span class="stat-plus">%</span>
+                <p class="stat-label">Passion</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-img-container">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Développeur Systèmes Embarqués</h3>
+                    <p>
+                        Fort de plusieurs années d'expérience dans le développement de systèmes embarqués, 
+                        je me spécialise dans la conception de solutions bas niveau combinant électronique 
+                        et programmation. Mon expertise couvre les microcontrôleurs (STM32, ESP32, Arduino), 
+                        les systèmes temps réel (FreeRTOS), et le développement de drivers et firmware.
+                    </p>
+                    <p>
+                        Je suis passionné par l'IoT, l'automatisation et les défis techniques que 
+                        représentent les contraintes des systèmes embarqués : performance, consommation 
+                        énergétique et fiabilité.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Formation</h4>
+                                <p>Licence en Génie Logiciel</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Lubumbashi, RDC</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <h4>Disponibilité</h4>
+                                <p>Freelance / CDI</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Télécharger CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Microcontrôleurs</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">STM32</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">ESP32 / ESP8266</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Arduino</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Raspberry Pi</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PIC / AVR</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Langages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">C / C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Protocoles & Bus</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">I2C / SPI / UART</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CAN Bus</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MQTT / CoAP</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Modbus</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">BLE / WiFi / LoRa</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Outils & Environnement</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Git / CI-CD</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">KiCad / Altium</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Oscilloscope / LA</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JTAG / SWD Debug</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projets</h2>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="iot">IoT</button>
+                <button class="filter-btn" data-filter="automotive">Automotive</button>
+                <button class="filter-btn" data-filter="industrial">Industriel</button>
+                <button class="filter-btn" data-filter="robotics">Robotique</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="iot">
+                    <div class="project-image">
+                        <i class="fas fa-home"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Home Hub</h3>
+                        <p>Station domotique basée sur ESP32 avec interface web, gestion multi-capteurs et protocole MQTT.</p>
+                        <div class="project-tags">
+                            <span>ESP32</span>
+                            <span>MQTT</span>
+                            <span>FreeRTOS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="automotive">
+                    <div class="project-image">
+                        <i class="fas fa-car"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>OBD-II Logger</h3>
+                        <p>Système d'acquisition de données véhicule via CAN Bus avec stockage SD et transmission BLE.</p>
+                        <div class="project-tags">
+                            <span>STM32</span>
+                            <span>CAN Bus</span>
+                            <span>BLE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="industrial">
+                    <div class="project-image">
+                        <i class="fas fa-industry"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>PLC Monitoring</h3>
+                        <p>Interface de supervision industrielle Modbus RTU/TCP avec dashboard temps réel.</p>
+                        <div class="project-tags">
+                            <span>Raspberry Pi</span>
+                            <span>Modbus</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="robotics">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Robot Autonome</h3>
+                        <p>Robot mobile avec navigation SLAM, évitement d'obstacles et contrôle PID des moteurs.</p>
+                        <div class="project-tags">
+                            <span>STM32</span>
+                            <span>ROS</span>
+                            <span>LiDAR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="iot">
+                    <div class="project-image">
+                        <i class="fas fa-seedling"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Agri-Sensor Network</h3>
+                        <p>Réseau de capteurs agricoles LoRaWAN avec monitoring météo et gestion d'irrigation.</p>
+                        <div class="project-tags">
+                            <span>ESP32</span>
+                            <span>LoRa</span>
+                            <span>Solar</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="industrial">
+                    <div class="project-image">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Motor Controller</h3>
+                        <p>Contrôleur de moteur brushless avec algorithme FOC et interface CAN pour industrie.</p>
+                        <div class="project-tags">
+                            <span>STM32F4</span>
+                            <span>FOC</span>
+                            <span>CAN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Travaillons ensemble !</h3>
+                    <p>
+                        Vous avez un projet embarqué en tête ? N'hésitez pas à me contacter 
+                        pour discuter de vos besoins et voir comment je peux vous aider.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>leonardrams420@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p>+243 974374588</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Lubumbashi, RDC</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links contact-social">
+                        <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-gitlab"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Votre nom" required>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Votre email" required>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Sujet">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Votre message" rows="5" required></textarea>
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Envoyer
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-microchip"></i>
+                    <span>EMBEDDED</span>
+                </div>
+                <p>&copy; 2026 Léonard Lukamba. Tous droits réservés.</p>
+                <p class="footer-tagline">Développeur Systèmes Embarqués - Du silicium au cloud</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
