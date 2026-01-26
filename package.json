@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-leonard-lukamba",
+  "version": "1.0.0",
+  "description": "Portfolio Développeur Systèmes Embarqués",
+  "scripts": {
+    "start": "npx serve -s . -l $PORT",
+    "build": "echo 'Static site, no build needed'"
+  },
+  "keywords": ["portfolio", "embedded", "developer"],
+  "author": "Leonard Lukamba",
+  "license": "MIT"
+}
